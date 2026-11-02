@@ -1,0 +1,919 @@
+{
+  "meta": {
+    "provider": "ollama",
+    "model": "qwen2.5:7b",
+    "date": "2026-11-01T10:14:15.663Z"
+  },
+  "outcomes": [
+    {
+      "id": "A1",
+      "category": "A",
+      "text": "I'm running a bit late, could you grab me a coffee?",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合朋友之间的轻松对话。",
+        "detailed_explanation": "这句话中的“running a bit late”是一个非常自然的表达，用来说明自己会稍微晚一点。‘Could you grab me a coffee?’ 也是朋友之间常用的请求方式。整句话简洁明了，没有任何需要改进的地方。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "A2",
+      "category": "A",
+      "text": "I'm gonna grab some food, wanna come?",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合朋友之间的轻松对话。",
+        "detailed_explanation": "\"Gonna\" 和 \"wanna\" 是非常口语化的表达，适合朋友之间的轻松对话。说话者用这些词表达邀请，语气亲切，没有语法错误。这种表达方式是地道的。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "A3",
+      "category": "A",
+      "text": "Thanks for the help, I really appreciate it.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，没有任何需要修改的地方。",
+        "detailed_explanation": "这句话完全符合中文使用者的习惯表达。'Thanks for the help' 和 'I really appreciate it' 都是非常自然的表达方式。在中文中，这种表达方式既礼貌又得体。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "A4",
+      "category": "A",
+      "text": "The meeting got moved to 3pm, just so you know.",
+      "context": "Professional emails",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话很自然，适合专业邮件的语境。",
+        "detailed_explanation": "这句话在专业邮件中使用得非常自然。'The meeting got moved to 3pm' 是一个常见的表达方式，用来说明会议时间的变化。'just so you know' 是一个非常自然的补充表达，用来提醒收件人注意这个信息。整个句子结构清晰，信息明确。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "A5",
+      "category": "A",
+      "text": "Can you send me the report when you get a chance?",
+      "context": "Professional emails",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合专业邮件中的请求。",
+        "detailed_explanation": "这句话使用了非常自然的表达方式，'can you' 是请求的礼貌用语，'send me the report' 直接明了，'when you get a chance' 则显得很灵活，不会给对方造成压力。这种表达方式在专业邮件中非常常见。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "B1",
+      "category": "B",
+      "text": "I have a technological problem on my win computer.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": false,
+        "naturalness": "awkward",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": false,
+        "naturalness": "awkward",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话在非正式的对话中可以理解，但听起来不够自然。",
+        "detailed_explanation": "“technological problem”听起来有些正式和宽泛，在非正式对话中，使用“issue with”或“problem with”会更自然。例如，可以说“I have an issue with my Windows PC”或“I have a problem with my Windows computer”。此外，“on my win computer”不是常见的搭配，通常会说“Windows PC”或“Windows computer”来指代Windows操作系统的电脑。例如，可以说“I have a problem with my Windows PC”。",
+        "recommended_expression": "I have an issue with my Windows PC."
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "B2",
+      "category": "B",
+      "text": "Let's do a meeting tomorrow morning.",
+      "context": "Professional emails",
+      "expected": {
+        "no_correction_needed": false,
+        "naturalness": "awkward",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合专业邮件中的提议。",
+        "detailed_explanation": "这句话中的“do a meeting”是正式场合提议开会的自然表达方式。在中文中，我们通常会说“召开会议”或“开会”，而在英文中，“do a meeting”是专业场合中常见的说法。这句话没有语法错误，也没有需要改进的地方。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": false,
+        "naturalness": false,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "B3",
+      "category": "B",
+      "text": "My English level is very poor, so I want to practice more.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": false,
+        "naturalness": "awkward",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合朋友之间的对话。",
+        "detailed_explanation": "这句话中的“我的英语水平很低”和“我想多加练习”都是自然的表达方式。使用“very”来强调水平的低，以及“more”来表达想要增加练习的意愿，都是符合日常对话习惯的。句中的语法和结构也没有问题。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": false,
+        "naturalness": false,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "B4",
+      "category": "B",
+      "text": "The price of the phone is expensive.",
+      "context": "Online discussions (forums, comment sections)",
+      "expected": {
+        "no_correction_needed": false,
+        "naturalness": "awkward",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": false,
+        "naturalness": "mostly_natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这个表达可以理解，但可以更地道一些。",
+        "detailed_explanation": "在英语中，'expensive'通常用来描述物品或服务，而不是直接用来描述价格。更自然的说法是使用'price is high'或'it is expensive'。例如，'The phone is quite expensive'或'The price of the phone is high'。这些表达更加符合英语的习惯用法。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": false,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "B5",
+      "category": "B",
+      "text": "I will give you a reply as soon as possible.",
+      "context": "Professional emails",
+      "expected": {
+        "no_correction_needed": false,
+        "naturalness": "mostly_natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": false,
+        "naturalness": "mostly_natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话在专业邮件中是清晰且专业的，但一个更地道的表达方式会更好。",
+        "detailed_explanation": "“give you a reply”在语法上是正确的，但在专业邮件中使用“get back to you”会更地道。这是英语中表达回复的常见短语，听起来更加自然。",
+        "recommended_expression": "I will get back to you as soon as possible."
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "C1",
+      "category": "C",
+      "text": "He don't like coffee.",
+      "context": "None given",
+      "expected": {
+        "no_correction_needed": false,
+        "naturalness": "unnatural",
+        "grammar_status": "incorrect"
+      },
+      "actual": {
+        "no_correction_needed": false,
+        "naturalness": "unnatural",
+        "grammar_status": "incorrect",
+        "overall_assessment": "这个句子有语法错误，但意思清楚。",
+        "detailed_explanation": "在英语中，第三人称单数主语（he/she/it）在现在时态中需要使用 'doesn't'，而 'don't' 用于 I/you/we/they。例如，'He doesn't like coffee' 是正确的，而 'He don't like coffee' 是错误的。这是一个基本的主谓一致规则。",
+        "recommended_expression": "He doesn't like coffee."
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "C2",
+      "category": "C",
+      "text": "She have two cats and a dog.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": false,
+        "naturalness": "unnatural",
+        "grammar_status": "incorrect"
+      },
+      "actual": {
+        "no_correction_needed": false,
+        "naturalness": "unnatural",
+        "grammar_status": "incorrect",
+        "overall_assessment": "这句话在语法上是错误的，同时也不自然。",
+        "detailed_explanation": "在英语中，第三人称单数主语 'She' 使用 'has' 而不是 'have'。例如，'She has two cats and a dog.' 这句话是正确的。错误的 'She have' 在语法上是错误的，听起来也不自然。",
+        "recommended_expression": "She has two cats and a dog."
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "C3",
+      "category": "C",
+      "text": "I am agree with you.",
+      "context": "None given",
+      "expected": {
+        "no_correction_needed": false,
+        "naturalness": "unnatural",
+        "grammar_status": "incorrect"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这个表达完全自然，没有任何问题。在口语中，人们经常这样表达同意。",
+        "detailed_explanation": "\"I am agree with you\" 是完全自然的表达方式。在口语中，人们经常这样表达同意。使用 'agree' 的过去式 'agree' 而不是 'agreed'，是因为这里强调的是现在的状态。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": false,
+        "naturalness": false,
+        "grammar_status": false
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "C4",
+      "category": "C",
+      "text": "He go to school by bus every day.",
+      "context": "None given",
+      "expected": {
+        "no_correction_needed": false,
+        "naturalness": "unnatural",
+        "grammar_status": "incorrect"
+      },
+      "actual": {
+        "no_correction_needed": false,
+        "naturalness": "unnatural",
+        "grammar_status": "incorrect",
+        "overall_assessment": "这个句子在语法上是错误的，也不自然。",
+        "detailed_explanation": "在这个句子中，'He go to school' 是错误的，因为第三人称单数主语 'He' 需要使用 'goes' 而不是 'go'。正确的形式是 'He goes to school'。'goes' 是 'go' 的第三人称单数形式，用于表示他每天的行为。这个错误使得句子听起来不自然，也不符合英语的语法规则。",
+        "recommended_expression": "He goes to school by bus every day."
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "C5",
+      "category": "C",
+      "text": "Yesterday I go to the park.",
+      "context": "None given",
+      "expected": {
+        "no_correction_needed": false,
+        "naturalness": "unnatural",
+        "grammar_status": "incorrect"
+      },
+      "actual": {
+        "no_correction_needed": false,
+        "naturalness": "awkward",
+        "grammar_status": "incorrect",
+        "overall_assessment": "这个句子在语法上是不正确的，听起来也不自然。",
+        "detailed_explanation": "原句中的 'go' 是一般现在时，而句子描述的是过去发生的事情，应该使用过去式 'went'。'Yesterday' 表示过去的时间，因此动词需要变为过去式。'Yesterday I went to the park' 是正确的表达方式。",
+        "recommended_expression": "Yesterday I went to the park."
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": false,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "D1",
+      "category": "D",
+      "text": "That movie was lit, ngl.",
+      "context": "Social media posts",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合社交媒体的轻松语气。",
+        "detailed_explanation": "“That movie was lit”是网络流行语，表示电影很好看。'ngl'是网络用语'nah, gonna lie'的缩写，意思是'说实话'。这句话在社交媒体上非常自然，符合轻松的语气。'Lit'和'ngl'都是非正式用语，适合非正式场合。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "D2",
+      "category": "D",
+      "text": "I can't even right now.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": false,
+        "naturalness": "awkward",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话虽然语法正确，但听起来不太自然。",
+        "detailed_explanation": "'Can't even' 是一个表达极度无能或无法做到某事的短语，通常后面会接具体的动作。在这个句子里，'right now' 使得这个表达显得有些突兀。一个更自然的表达方式是加上具体的动作，比如 'I can't even do it right now.' 这样表达会更加清晰和自然。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": false,
+        "naturalness": false,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "D3",
+      "category": "D",
+      "text": "Bruh, that's sus.",
+      "context": "Online discussions (forums, comment sections)",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合在线讨论的语境。",
+        "detailed_explanation": "“Bruh”是一个非正式的称呼，常用于朋友或熟人之间的对话。“sus”是“suspicious”的缩写，表示怀疑或可疑。这句话在在线讨论中非常常见，表达方式自然且符合非正式语境。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "D4",
+      "category": "D",
+      "text": "This video is fire, fr fr.",
+      "context": "Social media posts",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合社交媒体的表达方式。",
+        "detailed_explanation": "“This video is fire” 是一个非常流行的网络表达，用来形容某样东西非常好或非常吸引人。'fr fr' 是一种网络用语，用来强调或重复前面的形容词，表达强烈的情感。这种表达方式在社交媒体上非常常见，而且非常自然。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "D5",
+      "category": "D",
+      "text": "Wanna hang out later? I'm free all day.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合朋友之间的轻松对话。",
+        "detailed_explanation": "\"Wanna\" 是一个非常口语化的表达，用于朋友之间的轻松对话中，相当于 'want to'。'Hang out' 是一个很常见的表达，用来表示一起放松或社交。'Later' 和 'all day' 也很自然，表示时间安排。整句话非常自然，适合朋友之间的对话。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "E1",
+      "category": "E",
+      "text": "The results indicate a significant correlation between the two variables.",
+      "context": "Academic writing",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这个句子在学术写作中非常自然和恰当。",
+        "detailed_explanation": "这个句子在语法和用词上都是正确的。'The results indicate' 是学术写作中常见的表达方式，用来说明研究结果。'significant correlation' 也是学术术语，用来描述两个变量之间的显著相关性。整个句子结构清晰，符合学术写作的风格。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "E2",
+      "category": "E",
+      "text": "This study aims to investigate the effects of sleep on memory consolidation.",
+      "context": "Academic writing",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这段表述非常自然，符合学术写作的要求。",
+        "detailed_explanation": "这句话结构清晰，用词准确，符合学术写作的标准。'aims to investigate' 是一个标准的学术表达方式，用来说明研究的目的。'effects of sleep on memory consolidation' 也是学术写作中常见的表达，用来描述研究的具体内容。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "E3",
+      "category": "E",
+      "text": "We hereby request that you provide the necessary documentation.",
+      "context": "Professional emails",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这个表达正式且得体，适合正式邮件的语境。",
+        "detailed_explanation": "这句话的语法和用词都是正确的。'We hereby request' 是一种正式的表达方式，用于正式文件或邮件中，用来明确表达请求。'that you provide the necessary documentation' 也是标准的表达方式。整个句子结构清晰，语气正式。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "E4",
+      "category": "E",
+      "text": "The aforementioned issues remain unresolved at the time of writing.",
+      "context": "Academic writing",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这段表达在学术写作中非常自然，符合正式的语体风格。",
+        "detailed_explanation": "“The aforementioned” 是正式的学术用语，用来指代之前提到的内容。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "E5",
+      "category": "E",
+      "text": "It is evident from the data that further research is warranted.",
+      "context": "Academic writing",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话在学术写作中非常自然和恰当。",
+        "detailed_explanation": "这句话使用了非常正式和标准的学术语言。'It is evident' 是一个常见的表达方式，用来引出一个明确的结论。'further research is warranted' 也是学术写作中常用的表达，意味着根据现有数据，还需要进行更多的研究。整体来说，这句话没有任何问题。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "F1",
+      "category": "F",
+      "text": "I'll ring you later.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合朋友之间的轻松对话。",
+        "detailed_explanation": "“I'll ring you later.” 这句话在中文中非常自然，适合朋友之间的轻松对话。'ring' 在这里用作打电话的意思，'later' 表示未来某个时间。这句话简洁明了，符合日常对话中的表达习惯。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "F2",
+      "category": "F",
+      "text": "The car park is full, mate.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合朋友间的轻松对话。",
+        "detailed_explanation": "“The car park is full, mate.” 这句话在中文中可以翻译为“停车场已经停满了，伙计。”这句话的表达方式非常自然，符合朋友之间的轻松对话。'mate' 是一种友好的称呼，类似于中文中的“兄弟”或“哥们儿”，在非正式场合中使用。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "F3",
+      "category": "F",
+      "text": "I've just had a cuppa.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合朋友之间的闲聊。",
+        "detailed_explanation": "这句话使用了“刚刚”来表示刚刚完成的动作，‘cuppa’是英国英语中对‘cup of tea’的非正式缩写。这种表达方式简洁明了，符合朋友之间的轻松对话。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "F4",
+      "category": "F",
+      "text": "Can I get a soda?",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "完全自然，适合朋友间的轻松对话。",
+        "detailed_explanation": "这句话完全符合朋友间轻松对话的语境。'Can I get a soda?' 是一个非常自然的请求方式，没有任何需要改进的地方。'Can I have a soda?' 也是常见的表达方式，但 'get' 更加口语化。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "F5",
+      "category": "F",
+      "text": "She's taking the lift to the fifth floor.",
+      "context": "Professional emails",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这个句子非常自然，适合正式的电子邮件。",
+        "detailed_explanation": "这个句子使用了正确的时态（现在进行时）和恰当的词汇（lift 和 fifth floor），符合正式场合的表达习惯。'She's taking' 是一个自然的表达方式，适合正式的书面语。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "G1",
+      "category": "G",
+      "text": "Oh great, another Monday.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，符合朋友之间的轻松对话。",
+        "detailed_explanation": "“Oh great” 是一种常见的口语表达，用来表示一种负面的情绪。在这个句子里，说话者对周一的到来感到不高兴。这种表达方式在朋友之间的轻松对话中非常自然。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "G2",
+      "category": "G",
+      "text": "Yeah, because that's exactly what I needed.",
+      "context": "Online discussions (forums, comment sections)",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合在线讨论中的使用。",
+        "detailed_explanation": "这句话中的‘Yeah’是一个非常常见的口语表达，用来表示同意或认同。‘because that’s exactly what I needed’这部分也完全符合自然对话的表达方式。‘Exactly’这个词强调了某种精确性，使得表达更加明确。整个句子在在线讨论中使用非常自然。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "G3",
+      "category": "G",
+      "text": "Wow, thanks for pointing that out so helpfully.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，符合中文母语者的表达习惯。",
+        "detailed_explanation": "\"Wow\" 这个词非常直接地表达了惊讶和感激，\"thanks for pointing that out so helpfully\" 也很自然地表达了感谢。这种表达方式在中文母语者的日常对话中很常见。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "G4",
+      "category": "G",
+      "text": "Sure, I'll get right on that.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合朋友之间的 casual 交谈。",
+        "detailed_explanation": "这句话中的“Sure”和“I'll get right on that”都是非常自然的表达。'Sure' 是一个非常常见的肯定回答，而 'get right on that' 则表示立即行动。这种表达方式既简洁又直接，非常适合朋友之间的 casual 交谈。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    },
+    {
+      "id": "G5",
+      "category": "G",
+      "text": "My day is just going swimmingly.",
+      "context": "Casual conversation with friends",
+      "expected": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct"
+      },
+      "actual": {
+        "no_correction_needed": true,
+        "naturalness": "natural",
+        "grammar_status": "correct",
+        "overall_assessment": "这句话非常自然，适合朋友间的轻松对话。",
+        "detailed_explanation": "“My day is just going swimmingly” 这句话完全符合中文使用者的习惯表达。'Swimmingly' 在这里是一个非常形象且生动的词，用来形容事情进行得很顺利。这种表达方式在朋友间的轻松对话中非常常见。",
+        "recommended_expression": null
+      },
+      "matches": {
+        "no_correction_needed": true,
+        "naturalness": true,
+        "grammar_status": true
+      },
+      "attempts": 1,
+      "retries": 0
+    }
+  ]
+}

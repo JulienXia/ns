@@ -1,0 +1,24 @@
+# ── Dependencies ───────────────────────────────────────────
+node_modules/
+
+# ── Builds ─────────────────────────────────────────────────
+dist/
+build/
+
+# ── Environment & secrets (never commit these) ─────────────
+.env
+.env.*
+!.env.example
+
+# ── Local data (your personal Learning Bank) ───────────────
+data/
+
+# ── Logs ───────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── Editor / OS ────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
